@@ -1,0 +1,40 @@
+div{
+	background-color: HotPink;
+	color: Green;
+	padding: 50px;
+	width: 10px; 
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+.grid{
+	display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+
+@media screen and (max-width: 500px)
+{
+    div
+    {
+	    background-color:Red!important;
+	}
+	.grid{
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+}
+
+@media screen and (min-width: 800px)
+{
+    div
+    {
+	    background-color:Yellow!important;
+	}
+	.grid{
+		display: grid;
+		grid-template-columns: repeat(20, 1fr);
+	}
+
+}
