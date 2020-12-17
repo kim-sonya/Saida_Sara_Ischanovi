@@ -1,0 +1,16 @@
+div{
+	background-color: OrangeRed;
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	text-align: center;
+	color:BlueViolet;
+	box-shadow: 10px 10px 10px 0px;
+}
+
+
+.grid{
+	display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
